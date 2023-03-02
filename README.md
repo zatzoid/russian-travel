@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
- Gir pages -- https://zatzoid.github.io/russian-travel/
+ Git pages -- https://zatzoid.github.io/russian-travel/
 
 ### Это:
 * Адаптивный одностраничный сайт с картинками 
