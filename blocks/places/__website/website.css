@@ -1,0 +1,11 @@
+.website {
+    align-self: end;
+    padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+    .website {
+        padding: 0 16px 0;
+    }
+
+}

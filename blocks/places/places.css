@@ -1,60 +1,35 @@
-.place { margin-top: 80px;
+.place {
+    margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 460px));
-    grid-template-rows: repeat(auto-fit, auto);
-    gap:40px 48px;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 458px);
+    grid-template-rows: repeat(2, min-content);
+    gap: 48px 40px;
+    padding: 0 148px 0;
+
+
 }
 
-.place__image {
-    max-width: 100%;
-    min-width: 320px;
-    object-fit: cover;
-    grid-row: span 2;
+@media screen and (max-width: 1030px) {
+    .place {
+        padding: 0 48px 0;
+        gap: 48px 32px;
+    }
 }
 
-.place__title {
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
+@media screen and (max-width: 790px) {
+    .place {
+        margin-top: 73px;
+        gap: 48px 28px;
+        padding: 0 24px 0;
+    }
 }
 
-.place__paragraph {
-    align-content: start;
-    max-width: 100%;
-    min-width: 320px;
-    margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
+@media screen and (max-width: 750px) {
+    .place {
+        margin-top: 50px;
+        gap: 32px;
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
-
-.website{align-self: end;
-    
-}
-.website__heading { margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 170%;
-    /* or 20px */
-    color: #AAAAAA;
-    letter-spacing: 2px;
-}
-.website__link{
-    
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
-color: white;
-text-decoration-line: underline;
-}
-

@@ -6,9 +6,24 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    
-
     text-align: center;
+}
 
+
+@media screen and (max-width:770px) {
+    .lead__title {
+        font-size: 65px;
+        line-height: 77px;
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .lead__title {
+        padding: 0 16px 0;
+        max-width: 19rem;
+        font-size: 40px;
+        line-height: 44px;
+    }
 
 }
