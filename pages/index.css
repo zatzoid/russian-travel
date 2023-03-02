@@ -1,6 +1,7 @@
 /* norm */
 @import url(../vendor/vendor.css);
-
+/* font */
+@import url(../font/inter.css);
 /* root */
 @import url(../blocks/root/root.css);
 /* header */
