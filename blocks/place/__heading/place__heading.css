@@ -1,11 +1,10 @@
-.website__heading {
+.place__heading {
     margin: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 170%;
-
     color: #AAAAAA;
     letter-spacing: 2px;
 }

@@ -4,7 +4,7 @@
     padding: 0 48px 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
     gap: 16px;
 }
 
@@ -13,7 +13,7 @@
 @media screen and (max-width:1030px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
         gap: 14px;
     }
 }
@@ -24,7 +24,7 @@
        
         padding: 0 24px 0;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
     }
 }
 
