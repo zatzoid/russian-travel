@@ -6,12 +6,10 @@
     top: 0;
     left: 0;
     opacity: 0.3;
-    background-color: #2A2C2F
+    background-color: #2A2C2F;
 }
 
 .cover:hover .cover__overlay {
     opacity: 0.8;
-    background-color: #2A2C2F
+    background-color: #2A2C2F;
 }
-
-
