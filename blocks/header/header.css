@@ -8,6 +8,11 @@
     box-sizing: content-box;
 
 }
+@media screen and (min-width: 1300px) {
+    .header {
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .header {
