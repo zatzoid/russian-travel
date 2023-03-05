@@ -5,14 +5,10 @@
     margin: 28px auto 56px;
     max-width: 1280px;
     padding: 0 48px 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 
 }
-@media screen and (min-width: 1300px) {
-    .header {
-        padding: 0;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     .header {
